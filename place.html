@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=" = "UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale="1">
+    <title>재승하숙</title>
+    <link rel = "stylesheet" href="css/bootstrap.css" >
+    <link rel = "stylesheet" href="css/codingBooster.css" >
+    <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+
+
+<body>
+    <style type="text/css">
+        #wrapper{
+            max-width:1020px;
+            margin: 0 auto;
+        }
+        footer{
+            position:fixed;
+            height:100px;
+            bottom:0;
+            width:100%;
+        }
+        .vertical-center {
+  min-height: 50%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 30vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+    </style>    
+    <!--navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="home.html">재승하숙</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="Home.html">소개</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="place.html">장소</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  방 소개
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="room1.html">1층</a></li>
+                  <li><a class="dropdown-item" href="room1.html">3층</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="question.html">질문&답변</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <center>
+    <div class="container" id="wrapper">
+        <br>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.418228624294!2d126.96512311558806!3d37.545209133106304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca26dab8e9749%3A0x722ddf0353248c65!2z7ISc7Jq47Yq567OE7IucIOyaqeyCsOq1rCDssq3tjIzrj5ky6rCAIOyyre2MjOuhnDQ364KY6ri4IDgtOA!5e0!3m2!1sko!2skr!4v1628946643592!5m2!1sko!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <br><hr>
+        <h3>주소 : 서울특별시 용산구 청파로47나길 8-8</h3>
+        <br>
+        <h3>전화번호 : 010-3579-3805, 010-3262-1158</h3>
+        <br>
+
+    </div>
+    </center>
+    <footer class=" text-center text-lg-start bg-primary footer mt-auto " style="color:white;">
+      <div class="container p-4 ">
+          <div class="col" style="text-align: center;">
+              
+                  <h6 class="text-uppercase">주소 : 서울특별시 용산구 청파로 47나길 8-8</h5>
+              
+              
+                  <h6 class="text-uppercase">H.P. : 010 - 3262 - 1158</h5>
+              
+              
+          </div>
+         
+         
+  </footer>
+    <div class="row">
+        <div class="modal" id="modal" tabindex="=-1">
+            <div class="modal-dialog">
+                <div class ="modal-content">
+                    <div class="modal-header">
+                        Introduce
+                        <button class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body" style="text-align:  center;">
+                    서울시 용산구 청파로47나길 8-8 <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+</body>
+
+</html>
